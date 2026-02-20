@@ -1,0 +1,15 @@
+jobs:
+
+  A:
+    description: "Smoke-Test"
+    script: ./SCRIPTS/A_example.sh
+    mode: instant
+
+  B:
+    description: "Platzhalter"
+    script: ./SCRIPTS/B_myscript.sh
+    mode: instant
+
+  C:
+    description: "Cron-Job Beispiel"
+    mode: cron

@@ -1,0 +1,11 @@
+[Unit]
+Description=CLAWBRIDGE – Filesystem Trigger Dispatcher
+
+[Service]
+ExecStart=%h/souly9999/CLAWBRIDGE/clawbridge.sh
+Restart=on-failure
+RestartSec=5s
+SyslogIdentifier=CLAWBRIDGE
+
+[Install]
+WantedBy=default.target
